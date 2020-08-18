@@ -1,0 +1,364 @@
+main {
+    width: 1010px;
+    margin: 40px auto 100px
+}
+
+main::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.main-l {
+    width: 380px;
+    height: 540px;
+    border: 1px solid #e6e6e6;
+    padding: 10px 45px 0;
+    float: left;
+    position: relative;
+}
+
+.main-l-one img {
+    width: 380px;
+    height: 380px;
+}
+
+.df {
+    position: absolute;
+    top: 0;
+    left: 470px;
+    width: 380px;
+    height: 380px;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.df img {
+    width: 760px;
+    z-index: 999;
+    visibility: hidden;
+    position: absolute;
+}
+
+.xt {
+    position: relative;
+}
+
+.xf {
+    background-color: yellow;
+    opacity: 0.3;
+    visibility: hidden;
+    position: absolute;
+    cursor: move;
+    z-index: 10;
+}
+
+.main-l-footer {
+    width: 380px;
+    height: 60px;
+}
+
+.main-l-footer .dir {
+    display: block;
+    width: 15px;
+    height: 58px;
+    border: 1px solid #e7e7e7;
+    background: #fff;
+    float: left;
+    position: relative;
+}
+
+.main-l-footer .main-nav-l {
+    margin-right: 4px;
+}
+
+.main-l-footer .main-nav-l::after {
+    content: '';
+    margin: 0;
+    padding: 0;
+    width: 0;
+    height: 0;
+    border: 7px solid;
+    border-color: transparent #ccc transparent transparent;
+    position: absolute;
+    top: 50%;
+    margin-top: -50%;
+    margin-left: -10%;
+}
+
+.main-l-footer .main-nav-r {
+    margin-left: 4px;
+    float: right;
+}
+
+.main-l-footer .main-nav-r::after {
+    content: '';
+    margin: 0;
+    padding: 0;
+    width: 0;
+    height: 0;
+    border: 7px solid;
+    border-color: transparent transparent transparent #ccc;
+    position: absolute;
+    top: 50%;
+    margin-top: -50%;
+    left: 50%;
+    margin-left: -10%;
+}
+
+.main-l-footer .main-l-footer-pic li {
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin-right: 9px;
+    z-index: 10;
+}
+
+.main-l-footer .main-l-footer-pic .main-l-footer-pic5 {
+    margin-right: 0;
+}
+
+.main-l-footer .main-l-footer-pic li::after {
+    content: '';
+    clear: both;
+    display: block;
+    float: left;
+}
+
+.main-l-footer .main-l-footer-pic a {
+    display: block;
+    width: 56px;
+    height: 56px;
+    border: 2px solid #ff910e;
+}
+
+.main-l-footer .main-l-footer-pic img {
+    width: 56px;
+    height: 56px;
+}
+
+.main-r {
+    width: 510px;
+    float: right;
+}
+
+.main-r-top {
+    padding: 20px 0;
+    overflow: hidden;
+    border-bottom: 1px dashed #e6e6e6;
+    margin-bottom: 15px;
+}
+
+.main-r h2 {
+    color: #333;
+    font: bold 24px/24px "微软雅黑";
+}
+
+
+/* .main-r p {
+    color: #ff9600;
+    font: 18px/24px "微软雅黑";
+    margin-top: 5px;
+} */
+
+.main-r .info {
+    margin-bottom: 25px;
+}
+
+.main-r .info:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.main-r .info label {
+    width: 70px;
+    color: #999;
+    float: left;
+    margin-right: 5px;
+}
+
+.main-r .info span {
+    font: 14px/24px "微软雅黑";
+    color: #666;
+    cursor: pointer;
+}
+
+.main-r .info .gamelocation {
+    position: relative;
+    z-index: 10;
+}
+
+.main-r .info .gamelocation .gamezone {
+    width: 117px;
+    height: 32px;
+    line-height: 32px;
+    color: #888888;
+    border: 1px solid #d0d0d0;
+    cursor: pointer;
+    margin-right: 10px;
+    padding: 0 28px 0 13px;
+    font-size: 14px;
+    background: url(http://static.snail.com/images/item/9yin/dropdown.jpg) 130px center no-repeat;
+    float: left;
+}
+
+.main-r .info-one {
+    text-decoration: line-through;
+    color: #999;
+}
+
+.main-r div:nth-of-type(3) span {
+    color: #e7242e;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.main-r div:nth-of-type(6) {
+    background-color: #f7f7f7;
+    padding: 20px 10px;
+    width: 530px;
+    margin-left: -10px;
+    margin-bottom: 20px;
+}
+
+.main-r div:nth-of-type(7) {
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+.main-r .info-num {
+    float: left;
+}
+
+.main-r .info-num span {
+    width: 17px;
+    height: 17px;
+    float: left;
+    margin-top: 3px;
+    background: url(http://static.snail.com/images/mall/numbtn.jpg) 0 0 no-repeat;
+}
+
+.main-r .info-num span:nth-of-type(2) {
+    background-position: -17px 0;
+}
+
+.main-r .info-num span:nth-of-type(1):hover {
+    background-position: 0 -17px;
+}
+
+.main-r .info-num span:nth-of-type(2):hover {
+    background-position: -17px -17px;
+}
+
+.main-r .info-num input {
+    width: 44px;
+    height: 20px;
+    float: left;
+    margin: 0 5px;
+    border: 1px solid #aaa;
+    font: normal 12px/20px Arial;
+    color: #000;
+    text-align: center;
+    outline: 0;
+}
+
+.buybtn {
+    width: 136px;
+    height: 42px;
+    background: #ffeded;
+    float: left;
+    font: 16px/42px "微软雅黑";
+    text-align: center;
+    border: 1px solid #f40;
+    color: #f40;
+    margin-right: 25px;
+    border-radius: 3px;
+}
+
+.addcart {
+    width: 100px;
+    padding-left: 55px;
+    height: 44px;
+    border-radius: 3px;
+    background: url(http://static.snail.com/images/mall/carbtnbg.jpg) no-repeat;
+    float: left;
+    font: 16px/44px "微软雅黑";
+    color: #fff;
+}
+
+.addCartTips {
+    width: 500px;
+    height: 200px;
+    box-shadow: 0 0 8px 8px #525253;
+    position: fixed;
+    left: 50%;
+    margin-left: -250px;
+    background-color: #fff;
+    z-index: 99999;
+}
+
+.addCartTips h1 {
+    text-align: center;
+}
+
+.bbtn {
+    margin-top: 70px;
+    text-align: center
+}
+
+.bbtn a {
+    background: #ff9900;
+    font: 18px/45px "Microsoft Yahei";
+    text-align: center;
+    height: 45px;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    margin: 0 10px;
+    color: #fff;
+    padding: 0 15px;
+}
+
+
+/* .addCartTipsMask {
+    width: 100%;
+    background: #000;
+    opacity: .6;
+    filter: alpha(opacity=60);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 111111;
+}
+
+.addCartTipsBox {
+    width: 470px;
+    position: fixed;
+    left: 50%;
+    margin-left: -235px;
+    top: 20%;
+    box-shadow: 0 0 8px 8px #525253;
+    background: #fff;
+    overflow: hidden;
+    z-index: 111112;
+}
+
+.addCartTipsBox .t-header {
+    height: 46px;
+    background: #eee;
+    padding: 0 20px;
+    color: #666;
+    font: 14px/46px "Microsoft Yahei";
+    position: relative;
+}
+
+.addCartTipsBox .t-header a {
+    width: 20px;
+    height: 20px;
+    background: url(http://static.snail.com/images/cart/close.jpg) no-repeat;
+    text-indent: -999em;
+    position: absolute;
+    top: 13px;
+    right: 20px;
+} */

@@ -1,0 +1,141 @@
+.main {
+    width: 1000px;
+    margin: 0 auto;
+    header {
+        margin: 24px 0 99px 0;
+        a,
+        img {
+            display: block;
+        }
+        .reg-logo-left {
+            float: left;
+        }
+        .reg-logo-right {
+            font-size: 20px;
+            height: 51px;
+            line-height: 70px;
+            padding-left: 20px;
+        }
+    }
+    .regist {
+        margin-left: 248px;
+        form>div {
+            padding: 10px 0;
+            display: flex;
+            position: relative;
+            .con {
+                float: left;
+                background: url(http://mall.snail.com/passport/register/images/error.png) 0 center no-repeat;
+                height: 46px;
+                line-height: 46px;
+                color: #ff4161;
+                font-size: 14px;
+                padding-left: 26px;
+                margin-left: 16px;
+                display: none;
+            }
+            .zcerror {
+                position: absolute;
+                line-height: 46px;
+                left: 445px;
+            }
+        }
+        .regist-login {
+            width: 300px;
+            margin-left: 103px;
+            text-align: left;
+            color: #666666;
+            span {
+                float: right;
+                color: #999999;
+            }
+            a {
+                color: #fd8900;
+            }
+        }
+        h2 {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 68px;
+        }
+        label {
+            display: inline-block;
+            width: 98px;
+            height: 46px;
+            text-align: right;
+            padding-right: 5px;
+            font-size: 14px;
+            line-height: 46px;
+        }
+        input {
+            width: 300px;
+            height: 46px;
+            padding: 9px 6px;
+            box-sizing: border-box;
+            border: 1px solid #e5e5e5;
+            color: #999;
+            outline: 0;
+        }
+        .yzm {
+            display: flex;
+            label,
+            a {
+                line-height: 46px;
+            }
+        }
+        .yzminp {
+            width: 128px;
+        }
+        .yzmpic {
+            height: 44px;
+            width: 100px;
+            padding: 0;
+            margin: 0 12px 0 10px;
+            border: 1px solid #e5e5e5;
+            line-height: 44px;
+            text-align: center;
+            font-weight: 700;
+        }
+        .sub {
+            margin-left: 103px;
+            font-size: 14px;
+            display: flex;
+            input {
+                width: 14px;
+                height: 14px;
+                margin-right: 10px;
+                vertical-align: middle;
+            }
+        }
+        .zc {
+            input {
+                background-color: #fd8900;
+                color: #fff;
+                font-size: 20px;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+footer {
+    margin: 140px 0 60px 0;
+    border-top: 1px solid #e9e8e8;
+    padding-top: 40px;
+    text-align: center;
+    .footer-about {
+        margin-left: -20px;
+        span {
+            display: inline-block;
+            padding: 0 20px;
+            font-size: 14px;
+            line-height: 1;
+            border-right: 1px solid #d3d3d3;
+            color: #666666;
+            em {
+                position: relative;
+                top: -2px;
+            }
+        }
+    }
+}

@@ -1,0 +1,38 @@
+.side {
+    width: 45px;
+    height: 100%;
+    background-color: #e0e0e0;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+.side li {
+    display: block;
+    cursor: pointer;
+    height: 75px;
+    width: 45px;
+    bottom: 170px;
+    background: url(http://mobile.snail.com/static/common/images/sidebar.png) no-repeat;
+    position: absolute;
+}
+
+.side .side1 {
+    background-position: 0 -947px;
+    top: 50%;
+}
+
+.side .side2 {
+    background-position: -55px -456px;
+    top: 60%;
+}
+
+.side .side3 {
+    background-position: -55px -152px;
+    top: 70%;
+}
+
+.side .side4 {
+    background-position: -55px -608px;
+    top: 80%;
+}

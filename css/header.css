@@ -1,0 +1,125 @@
+body,
+html,
+div,
+ul,
+li,
+a,
+span,
+i,
+strong,
+img,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.top-one {
+    width: 1349px;
+    height: 44px;
+    background-color: #323436;
+    line-height: 44px;
+}
+
+.top-one .wrapper {
+    width: 1200px;
+    height: 44px;
+    margin: 0 auto;
+}
+
+.top-one .wrapper li {
+    float: left;
+    height: 44px;
+}
+
+.top-one .wrapper li a {
+    color: #989898;
+    font-size: 14px;
+    padding: 0 19px;
+}
+
+.top-one .wrapper li a:hover {
+    color: #fff;
+}
+
+.top-one .wrapper .dl {
+    margin-right: 55px;
+}
+
+.top-one .wrapper .zc {
+    margin-left: 25px;
+}
+
+.top-one .wrapper .Cart {
+    height: 44px;
+    width: 180px;
+    text-align: center;
+    position: relative;
+}
+
+.top-one .wrapper .Cart a {
+    background-color: #232426;
+    display: block;
+    height: 100%;
+    width: 150px;
+}
+
+.top-one .wrapper .Cart a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.top-one .wrapper .Cart i {
+    width: 21px;
+    height: 16px;
+    display: block;
+    position: absolute;
+    left: 38px;
+    top: 16px;
+    background: url(http://mobile.snail.com/static/common/images/nav-icon.png) -50px 0 no-repeat;
+}
+
+.top-two {
+    height: 100px;
+    line-height: 100px;
+    position: relative;
+}
+
+.top-two .logo {
+    position: absolute;
+    top: 17px;
+}
+
+.top-two ul {
+    float: right;
+    height: 100px;
+}
+
+.top-two li {
+    float: left;
+    padding: 0 25px;
+}
+
+.top-two a {
+    color: #333333;
+    font-size: 18px;
+    height: 55px;
+}
+
+.top-two .sub-nav {
+    display: none;
+}

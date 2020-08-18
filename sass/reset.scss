@@ -1,0 +1,32 @@
+$n:none;
+body,
+html,
+div,
+ul,
+li,
+a,
+span,
+i,
+strong,
+img,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+em {
+    padding: 0;
+    margin: 0;
+    text-decoration: $n;
+    list-style-type: $n;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}

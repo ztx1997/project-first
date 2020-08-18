@@ -1,0 +1,419 @@
+body,
+html,
+div,
+ul,
+li,
+a,
+span,
+i,
+strong,
+img,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style-type: none;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.content:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.top-one {
+  width: 1349px;
+  height: 44px;
+  background-color: #323436;
+  line-height: 44px;
+}
+.top-one .wrapper {
+  width: 1200px;
+  height: 44px;
+  margin: 0 auto;
+}
+.top-one .wrapper li {
+  float: left;
+  height: 44px;
+}
+.top-one .wrapper li a {
+  color: #989898;
+  font-size: 14px;
+  padding: 0 19px;
+}
+.top-one .wrapper li a:hover {
+  color: #fff;
+}
+.top-one .wrapper .dl {
+  margin-right: 55px;
+}
+.top-one .wrapper .zc {
+  margin-left: 25px;
+}
+.top-one .wrapper .Cart {
+  height: 44px;
+  width: 180px;
+  text-align: center;
+  position: relative;
+}
+.top-one .wrapper .Cart a {
+  background-color: #232426;
+  display: block;
+  height: 100%;
+  width: 150px;
+}
+.top-one .wrapper .Cart a:hover {
+  background-color: #fff;
+  color: #000;
+}
+.top-one .wrapper .Cart i {
+  width: 21px;
+  height: 16px;
+  display: block;
+  position: absolute;
+  left: 38px;
+  top: 16px;
+  background: url(http://mobile.snail.com/static/common/images/nav-icon.png) -50px 0 no-repeat;
+}
+
+.top-two {
+  height: 100px;
+  position: relative;
+}
+.top-two .wrapper {
+  display: flex;
+}
+.top-two .top-two-left {
+  width: 438px;
+}
+.top-two .top-two-left a {
+  display: inline-block;
+  margin: 20px 0 30px;
+}
+.top-two .top-two-left ul {
+  float: right;
+  height: 100px;
+}
+.top-two .top-two-left li {
+  float: left;
+  padding: 0 25px;
+}
+.top-two .top-two-left .logo1 {
+  color: #333333;
+  font-size: 18px;
+  border-right: 1px solid #e0e0e0;
+  width: 162px;
+}
+.top-two .top-two-left .logo2 {
+  margin: 0 20px;
+}
+.top-two .top-two-right {
+  margin-top: 30px;
+}
+.top-two .top-two-right .top-search {
+  border: 2px solid orange;
+  border-right: 0;
+  height: 32px;
+  line-height: 32px;
+  padding: 0 5px;
+  width: 350px;
+  font-size: 12px;
+  vertical-align: middle;
+  outline: 0;
+}
+.top-two .top-two-right .top-sub {
+  border: 0;
+  background: url(http://mall.snail.com/store/wjq/images/search_bg.png) no-repeat center center #ff7f00;
+  width: 36px;
+  height: 36px;
+  vertical-align: middle;
+  cursor: pointer;
+  outline: 0;
+}
+
+nav {
+  background-color: #ff8400;
+}
+nav ul {
+  width: 1200px;
+  margin: auto;
+  display: flex;
+}
+nav li {
+  width: 210px;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 87px;
+}
+nav li a {
+  color: #fff;
+}
+
+.side {
+  width: 45px;
+  height: 100%;
+  background-color: #e0e0e0;
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+.side li {
+  display: block;
+  cursor: pointer;
+  height: 75px;
+  width: 45px;
+  bottom: 170px;
+  background: url(http://mobile.snail.com/static/common/images/sidebar.png) no-repeat;
+  position: absolute;
+}
+.side .side1 {
+  background-position: 0 -947px;
+  top: 50%;
+}
+.side .side2 {
+  background-position: -55px -456px;
+  top: 60%;
+}
+.side .side3 {
+  background-position: -55px -152px;
+  top: 70%;
+}
+.side .side4 {
+  background-position: -55px -608px;
+  top: 80%;
+}
+
+.content .pos {
+  color: #666;
+  font-size: 14px;
+  line-height: 38px;
+  margin: 15px 0;
+}
+.content .pos span {
+  color: #000;
+}
+.content .pos a {
+  color: #666;
+}
+.content .content-left {
+  width: 291px;
+  height: 381px;
+  border: 1px solid #dfdfdf;
+  float: left;
+}
+.content .content-left h2 {
+  font-size: 18px;
+  color: #333333;
+  line-height: 60px;
+  text-align: center;
+  border-bottom: 1px solid #dfdfdf;
+}
+.content .content-left ul {
+  background-color: #ffffff;
+  padding: 0 18px;
+  height: 318px;
+  overflow: hidden;
+}
+.content .content-left ul li {
+  border-bottom: 1px dotted #dfdfdf;
+  height: 62px;
+  line-height: 62px;
+}
+.content .content-left ul a {
+  color: #000;
+}
+.content .content-left ul p {
+  font-size: 18px;
+  color: #e62528;
+  font-weight: bold;
+  display: inline-block;
+}
+.content .content-left ul span {
+  float: right;
+  color: #ff7f00;
+}
+.content .content-left ul .last {
+  color: #999999;
+}
+.content .content-right {
+  width: 893px;
+  float: right;
+}
+.content .content-right .content-right-nav {
+  background-color: #f7f7f7;
+  border: 1px solid #dfdfdf;
+  padding: 0 20px;
+}
+.content .content-right .content-right-nav h2 {
+  border-bottom: 1px dashed #dedede;
+  font-size: 16px;
+  line-height: 50px;
+}
+.content .content-right .content-right-nav .time-option {
+  width: 120px;
+  height: 30px;
+  font-size: 14px;
+  background-color: #fff;
+  border: 1px solid #dedede;
+  line-height: 30px;
+  padding: 0 5px 0 10px;
+  box-sizing: border-box;
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+}
+.content .content-right .content-right-nav .time-option:hover .right-subnav {
+  display: block;
+}
+.content .content-right .content-right-nav .time-option i {
+  display: block;
+  width: 30px;
+  height: 30px;
+  background: url(http://mall.snail.com/store/wjq/images/icon-list.png) no-repeat center -168px;
+  float: right;
+}
+.content .content-right .content-right-nav .right-subnav {
+  width: 120px;
+  position: absolute;
+  background-color: #fff;
+  left: -1px;
+  border: 1px solid #dedede;
+  padding: 0 10px;
+  box-sizing: border-box;
+  border-top: 0;
+  display: none;
+}
+.content .content-right .content-right-nav-two {
+  display: flex;
+  font-size: 14px;
+  border-bottom: 1px dashed #dedede;
+}
+.content .content-right .content-right-nav-two li {
+  width: 282px;
+  padding: 30px 0;
+}
+.content .content-right .content-right-nav-two .sail-one {
+  margin-right: 10px;
+}
+.content .content-right .content-right-nav-two .sail {
+  display: inline-block;
+  vertical-align: middle;
+  border: 1px solid #dedede;
+  width: 64px;
+  height: 30px;
+  line-height: 30px;
+  background: url(http://mall.snail.com/store/wjq/images/icon-list.png) no-repeat right -110px white;
+  text-indent: 10px;
+  cursor: pointer;
+}
+.content .content-right .content-right-nav-two .sail-two {
+  background-position: right -50px;
+}
+.content .content-right .content-right-nav-two .right-price {
+  border: 1px solid #dedede;
+  width: 50px;
+  height: 26px;
+  line-height: 26px;
+  padding: 2px 3px;
+  vertical-align: middle;
+  font-size: 14px;
+  display: inline-blockl;
+}
+.content .content-right .content-right-nav-two .right-sure {
+  background-color: #ff7f00;
+  display: inline-block;
+  width: 70px;
+  height: 32px;
+  line-height: 32px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  vertical-align: middle;
+  margin-left: 3px;
+}
+.content .content-right .right-type {
+  padding: 20px 0;
+  font-size: 14px;
+}
+.content .content-right .right-type label {
+  margin-right: 15px;
+}
+.content .content-right .page {
+  padding: 15px 0;
+  float: right;
+  display: flex;
+}
+.content .content-right .page .page-left {
+  display: block;
+  width: 26px;
+  height: 26px;
+  background: url(http://mall.snail.com/store/wjq/images/icon-list.png) no-repeat center -233px white;
+  border: 1px solid #dedede;
+}
+.content .content-right .page .page-number {
+  width: 44px;
+  height: 26px;
+  border: 1px solid #dedede;
+  border-left: 0;
+  border-right: 0;
+  display: inline-block;
+  color: #999999;
+  line-height: 26px;
+  text-align: center;
+}
+.content .content-right .page .page-right {
+  background: url(http://mall.snail.com/store/wjq/images/icon-list.png) no-repeat center -263px white;
+}
+.content .content-right .result-product {
+  padding-top: 60px;
+  width: 912px;
+}
+.content .content-right .result-product .item {
+  width: 286px;
+  height: 348px;
+  border: 1px solid #dedede;
+  margin-right: 16px;
+  margin-bottom: 16px;
+  float: left;
+}
+.content .content-right .result-product a {
+  width: 286px;
+  height: 265px;
+  display: block;
+  border-bottom: 1px dashed #dedede;
+}
+.content .content-right .result-product img {
+  display: block;
+  width: 265px;
+}
+.content .content-right .result-product .item-intro {
+  height: 82px;
+  line-height: 82px;
+  border-top: 1px dashed #e6e6e6;
+  padding: 0 20px;
+  font-size: 16px;
+}
+.content .content-right .result-product i {
+  float: right;
+  color: #ff7f00;
+  font-size: 16px;
+}
+
+.pagelist {
+  float: right;
+  width: 100%;
+}

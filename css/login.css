@@ -1,0 +1,189 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.mask {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.5;
+}
+
+.login {
+    font-family: "微软雅黑";
+    width: 704px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -352px;
+    height: 400px;
+    margin-top: -200px;
+    background-color: white;
+    z-index: 100;
+    border: 8px solid rgb(100, 99, 99);
+}
+
+.login form {
+    position: relative;
+}
+
+.login .cancel {
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: url(https://sso.woniu.com/images/login/close.gif) no-repeat;
+    top: 10px;
+    right: 10px;
+}
+
+.login-left {
+    width: 280px;
+    margin-left: 20px;
+    margin-top: 48px;
+    text-align: center;
+    float: left;
+    /* border-right: 1px dashed #dedede; */
+}
+
+.login-left .login-ewm {
+    margin: 38px auto 18px;
+    border: 1px solid #dedede;
+    width: 132px;
+}
+
+.login-left .login-ewm img {
+    width: 132px;
+    height: 132px;
+}
+
+.login-left span {
+    display: block;
+    background-color: #dedede;
+    width: 200px;
+    height: 30px;
+    border-radius: 30px;
+    margin: auto;
+    line-height: 30px;
+}
+
+.login-right {
+    width: 315px;
+    float: right;
+    margin-top: 48px;
+    margin-right: 20px;
+}
+
+.login-right h2 {
+    font-size: 17px;
+    color: #333333;
+    text-align: left;
+    margin-bottom: 4px;
+}
+
+.login-right .login-right-error {
+    color: red;
+    font-size: 14px;
+}
+
+.ero1 {
+    display: none;
+}
+
+.ero2 {
+    display: none;
+}
+
+.login-right .kk {
+    width: 260px;
+    height: 44px;
+    border: 1px solid #dadada;
+    margin-bottom: 15px;
+    position: relative;
+    line-height: 44px;
+}
+
+.login-right span {
+    display: block;
+    height: 24px;
+    position: relative;
+    margin-left: 15px;
+    margin-top: 14px;
+    padding-left: 30px;
+    float: left;
+    background: url(https://sso.woniu.com/images/login/ipt_bg.gif) no-repeat;
+}
+
+.login-right .pas-logo {
+    background-position: 0 -32px;
+}
+
+.login-right input {
+    outline: none;
+    background: none;
+    width: 190px;
+    border: none;
+    height: 20px;
+    line-height: 20px;
+    font-size: 15px;
+    font-family: 微软雅黑;
+}
+
+.login-right .login-yzm {
+    border: 1px solid #dadada;
+    width: 144px;
+    height: 44px;
+    /* float: left; */
+}
+
+.login-right .login-yzm div {
+    display: block;
+    height: 44px;
+    width: 107px;
+    cursor: pointer;
+    border: 1px solid #dedede;
+    position: absolute;
+    right: -117px;
+    top: -1px;
+}
+
+.login-right a {
+    outline: 0;
+    display: block;
+    color: #fff;
+    font-size: 20px;
+    background: #ff7f00;
+    margin-bottom: 21px;
+    width: 262px;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+}
+
+.login p {
+    width: 600px;
+    float: left;
+    font-size: 14px;
+    color: #999999;
+    margin-left: 50px;
+    margin-top: 24px;
+}
+
+.login p a {
+    color: #ff860d;
+}
+
+.login p span:nth-of-type(2) {
+    float: right;
+}
+
+.login-yzm-pic {
+    text-align: center;
+}
+
+.login-yzm-inp {
+    width: 135px;
+    margin-left: 10px;
+}

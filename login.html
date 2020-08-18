@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/login.css">
+</head>
+
+<body>
+    <div class="mask"></div>
+    <div class="login">
+        <form action="">
+            <div class="login-left">
+                <h3>扫二维码安全登录</h3>
+                <div class="login-ewm">
+                    <img src="https://sso.woniu.com/barCode2D?action=1597046554810" alt="">
+                </div>
+                <span>使用蜗牛盾扫描二维码</span>
+            </div>
+            <a href="javascript:window.history.back();" class="cancel"></a>
+
+            <div class="login-right">
+                <h2>账号登录</h2>
+                <i class="login-right-error ero1">账户或密码有误</i>
+                <i class="login-right-error ero2">验证码错误</i>
+                <div class="login-dl kk">
+                    <span class="login-dl-logo"></span>
+                    <input type="text" class="username" placeholder="蜗牛通行证/免卡号码" name="username">
+                </div>
+                <div class="pas kk">
+                    <span class="pas-logo"></span>
+                    <input type="text" class="password" placeholder="密码" name="password">
+                </div>
+                <div class="login-yzm kk">
+                    <input type="text" placeholder="请输入右侧的验证码" class="login-yzm-inp">
+                    <div class="login-yzm-pic">
+
+                    </div>
+
+                </div>
+
+                <a href="javascript:;">登录</a>
+            </div>
+            <p>
+                <span>使用蜗牛盾，安全无忧！<a>详情 ></a></span>
+
+                <span>
+                <a href="">忘记密码</a> |
+                <a href="register.html">注册</a> |
+                <a href="">帮助</a>
+            </span>
+            </p>
+        </form>
+    </div>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
+    <script src="./script/jquery.lazyload.js"></script>
+    <script src="./script/ajaxpromise.js"></script>
+    <script src="script/jquery.cookie.js"></script>
+    <script src="./script/login.js"></script>
+</body>
+
+</html>

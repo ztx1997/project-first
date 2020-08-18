@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/register.css">
+</head>
+
+<body>
+    <div class="main">
+        <header>
+            <a href="" class="reg-logo-left">
+                <img src="http://mall.snail.com/passport/register/images/logo.png" alt="">
+            </a>
+            <span class="reg-logo-right">
+                欢迎注册
+            </span>
+        </header>
+
+        <div class="regist">
+            <h2>蜗牛通行证，适用于蜗牛旗下所有游戏！</h2>
+            <div class="regist-login">
+                蜗牛通行证注册
+                <span>
+                    已注册，
+                    <a href="login.html">
+                        登录
+                    </a>
+                </span>
+            </div>
+            <form action="javascript:;" method="POST">
+                <div class="registpos">
+                    <!--给表格添加一个属性名让出错信息定位在后面 -->
+                    <label for="">创建账号:</label><input type="text" value="" class="username" name="username" style="display: none">
+                    <input type="text" class="username2" value="6-25位字母数字或下划线组成">
+                    <div class="con conerror"></div>
+                    <div class="zcerror"></div>
+                </div>
+                <div class="registpos">
+                    <label for="">设置密码:</label><input type="password" value="" class="password" name="password" style="display: none">
+                    <input type="text" class="password2" value="6-20个字符组成">
+                    <div class="con conerror"></div>
+                </div>
+                <div class="registpos">
+                    <label for="">确认密码:</label><input type="password" value="" class="surepos" name="repass" style="display: none">
+                    <input type="text" value="确认密码" class="surepos2">
+                    <div class="con conerror"></div>
+                </div>
+                <div class="registpos">
+                    <label for="">手机号码:</label><input type="text" value="" class="phone" name="phonenum" style="display: none" maxlength="11">
+                    <input type="text" class="phone2" value="可享受官方增值服务">
+                    <div class="con conerror"></div>
+                </div>
+                <div class="yzm registpos">
+                    <label for="">验证码:</label>
+                    <input type="text" value="验证码" class="yzminp inpyzm">
+                    <div class="yzmpic"></div>
+                    <a href="javascript:;" class="yzmchange">换一张</a>
+                    <div class="con conerror"></div>
+                    <!--信息出错的按钮-->
+                </div>
+                <div class="sub">
+                    <p>
+                        <input type="checkbox" class="sub-check" checked> 我已仔细阅读并接受
+                        <a href="">《Snail 账号协议》</a></p>
+                </div>
+                <div class="regist-login zc">
+                    <input type="submit" value="注  册" class="zcinp" name="submit">
+                </div>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-about">
+            <span>
+                <em>关于蜗牛</em>
+            </span>
+            <span>
+                <em>蜗牛移动</em>
+            </span>
+            <span>
+                <em>蜗牛游戏</em>
+            </span>
+            <span>
+                <em>蜗牛商城</em>
+            </span>
+            <span>
+                <em>商务合作</em>
+            </span>
+            <span>
+                <em>客服热线：10040</em>
+            </span>
+        </div>
+    </footer>
+
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="./script/ajaxpromise.js"></script>
+    <script src="./script/registry.js"></script>
+</body>
+
+</html>

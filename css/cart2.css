@@ -1,0 +1,223 @@
+body {
+    background-color: #f7f7f7;
+}
+
+.top-two {
+    background-color: #fff;
+}
+
+.cart-main {
+    width: 1200px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.cart-main .cart-top {
+    width: 100%;
+    height: 50px;
+    color: #333;
+    font: 14px/50px "微软雅黑";
+    background-color: #ffffff;
+    padding: 10px 0;
+}
+
+.cart-main .cart-top .cart-top1 {
+    width: 110px;
+}
+
+.cart-main .cart-top .cart-top2 {
+    width: 480px;
+}
+
+.cart-main .cart-top .cart-top3 {
+    width: 100px;
+}
+
+.cart-main .cart-top .cart-top4 {
+    width: 190px;
+}
+
+.cart-main .cart-top .cart-top5 {
+    width: 110px;
+}
+
+.cart-main .cart-top .cart-top6 {
+    width: 160px;
+}
+
+.cart-main .cart-top .cart-top3,
+.cart-main .cart-top .cart-top4,
+.cart-main .cart-top .cart-top5,
+.cart-main .cart-top .cart-top6 {
+    text-align: center;
+}
+
+.cart-main .cart-top div {
+    float: left;
+    height: 50px;
+}
+
+.cart-pro {
+    margin-top: 10px;
+    background-color: #fff;
+}
+
+.cart-pro table {
+    background-color: #ffffff;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.cart-pro td {
+    padding-left: 60px;
+}
+
+.cart-pro .checkone {
+    margin-right: 40px;
+    visibility: hidden;
+}
+
+.cart-pro .trone {
+    padding-left: 10px;
+    font-size: 14px;
+    color: #333;
+    padding: 20px 50px;
+}
+
+.cart-pro .trone td {
+    border-bottom: 1px solid #dedede;
+}
+
+.cart-pro td {
+    padding: 20px 0;
+    vertical-align: middle;
+}
+
+.cart-pro td:nth-of-type(1) {
+    padding-left: 60px;
+}
+
+.cart-pro .trone td:nth-of-type(1) span {
+    background-color: #ff5e5e;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    margin: 0 5px 0 0;
+    border-radius: 3px;
+    display: inline-block;
+    color: #fff;
+}
+
+.cart-pro .checkbox {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #ccc;
+    vertical-align: top;
+}
+
+.cart-pro .checktwo {
+    margin-right: 20px;
+}
+
+.cart-pro .tr-two checkbox {
+    margin-right: 40px;
+}
+
+.trthree {
+    padding: 0 60px;
+}
+
+.trthree-table {
+    border-collapse: collapse;
+}
+
+.trthree-bk {
+    border: 1px solid #ccc;
+}
+
+.trthree .trthree-bk-pro1 {
+    width: 50px;
+}
+
+.trthree .trthree-bk-pro2 {
+    width: 433px;
+}
+
+.trthree-bk-pro2 strong {
+    position: relative;
+    top: -43px;
+}
+
+.trthree-bk-pro2 img {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #ccc;
+}
+
+.trthree-bk-pro3 {
+    width: 140px;
+}
+
+.trthree-bk-pro4 {
+    width: 160px;
+}
+
+.trthree-bk-pro4 input {
+    width: 70px;
+    height: 34px;
+    background: #fff;
+    text-align: center;
+    color: #333;
+    line-height: 34px;
+    border: none;
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.trthree-bk-pro5 {
+    width: 145px;
+}
+
+.trfour-calc {
+    width: 180px;
+    height: 50px;
+    text-align: center;
+    float: right;
+    color: rgb(255, 255, 255);
+    background: rgb(229, 229, 229);
+    font: 16px / 50px 微软雅黑;
+    text-decoration: none;
+}
+
+.trfour-hj {
+    padding: 0 10px;
+    float: right;
+    line-height: 50px;
+    width: 175px;
+}
+
+.trfour-price {
+    color: #ff9500;
+    font: bold 24px "Arial";
+    vertical-align: middle;
+}
+
+.trfour-pro {
+    float: right;
+    padding: 0 20px;
+    line-height: 50px;
+}
+
+.trfour-num {
+    font: normal 14px "Arial";
+    color: #ff7f00;
+    vertical-align: middle;
+    margin: 0 2px;
+}
+
+.trthree-bk-pro6-cancel {
+    cursor: pointer;
+}

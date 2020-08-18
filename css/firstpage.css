@@ -1,0 +1,720 @@
+body,
+html,
+div,
+ul,
+li,
+a,
+span,
+i,
+strong,
+img,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style-type: none;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.wrapper {
+  width: 1210px;
+  margin: 0 auto;
+}
+
+.top-one {
+  width: 1349px;
+  height: 44px;
+  background-color: #323436;
+  line-height: 44px;
+}
+.top-one .wrapper {
+  width: 1200px;
+  height: 44px;
+  margin: 0 auto;
+}
+.top-one .wrapper li {
+  float: left;
+  height: 44px;
+}
+.top-one .wrapper li a {
+  color: #989898;
+  font-size: 14px;
+  padding: 0 19px;
+}
+.top-one .wrapper li a:hover {
+  color: #fff;
+}
+.top-one .wrapper .dl {
+  margin-right: 55px;
+}
+.top-one .wrapper .zc {
+  margin-left: 25px;
+}
+.top-one .wrapper .Cart {
+  height: 44px;
+  width: 180px;
+  text-align: center;
+  position: relative;
+}
+.top-one .wrapper .Cart a {
+  background-color: #232426;
+  display: block;
+  height: 100%;
+  width: 150px;
+}
+.top-one .wrapper .Cart a:hover {
+  background-color: #fff;
+  color: #000;
+}
+.top-one .wrapper .Cart i {
+  width: 21px;
+  height: 16px;
+  display: block;
+  position: absolute;
+  left: 38px;
+  top: 16px;
+  background: url(http://mobile.snail.com/static/common/images/nav-icon.png) -50px 0 no-repeat;
+}
+
+.top-two {
+  height: 100px;
+  line-height: 100px;
+  position: relative;
+}
+.top-two .logo {
+  position: absolute;
+  top: 17px;
+}
+.top-two ul {
+  float: right;
+  height: 100px;
+}
+.top-two li {
+  float: left;
+  padding: 0 25px;
+}
+.top-two a {
+  color: #333333;
+  font-size: 18px;
+  height: 55px;
+}
+.top-two .sub-nav {
+  display: none;
+}
+
+.middle {
+  overflow: hidden;
+  background: #f7f7f7;
+  padding-bottom: 60px;
+}
+
+.banner {
+  padding: 0 75px;
+  width: 1200px;
+  overflow: hidden;
+}
+.banner i {
+  color: #fff;
+  padding: 0 40px 0 55px;
+}
+.banner .banner-menu li {
+  position: relative;
+}
+.banner .banner-menu {
+  background-color: #323436;
+  width: 230px;
+  height: 430px;
+  float: left;
+  position: relative;
+}
+.banner .banner-menu .ban-menu-subnav {
+  z-index: 1;
+  width: 236px;
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid #ff9500;
+  height: 428px;
+  right: -102%;
+  top: 0px;
+  padding: 29px 25px;
+  box-sizing: border-box;
+}
+.banner .banner-menu .ban-menu-subnav li {
+  height: 40px;
+  line-height: 40px;
+  float: left;
+  margin-bottom: 20px;
+}
+.banner .banner-menu .ban-menu-subnav img {
+  width: 40px;
+  height: 40px;
+  display: block;
+  float: left;
+  margin-right: 16px;
+}
+.banner .banner-menu .ban-menu-subnav {
+  display: none;
+}
+.banner .banner-menu .subnavxx2 {
+  top: -47px;
+}
+.banner .banner-menu em {
+  display: block;
+  position: absolute;
+  background: url(http://mobile.snail.com/static/common/images/nav-icon.png) 0 0 no-repeat;
+}
+.banner .banner-menu li:nth-of-type(1) em,
+.banner .banner-menu li:nth-of-type(2) em {
+  width: 12px;
+  height: 16px;
+  background-position: 0 0;
+  left: 31px;
+  top: 18px;
+}
+.banner .banner-menu li:nth-of-type(3) em {
+  width: 15px;
+  height: 15px;
+  background-position: 0 -17px;
+  left: 29px;
+  top: 18px;
+}
+.banner .banner-menu li:nth-of-type(4) em {
+  width: 12px;
+  height: 16px;
+  background-position: 0 -33px;
+  left: 31px;
+  top: 18px;
+}
+.banner .banner-menu li:nth-of-type(5) em {
+  width: 12px;
+  height: 16px;
+  background-position: 0 -67px;
+  left: 31px;
+  top: 18px;
+}
+.banner .banner-menu li:nth-of-type(6) em {
+  width: 19px;
+  height: 16px;
+  background-position: 0 -84px;
+  left: 28px;
+  top: 16px;
+}
+.banner .banner-menu li:nth-of-type(7) em {
+  width: 16px;
+  height: 16px;
+  background-position: 0 -101px;
+  left: 28px;
+  top: 18px;
+}
+.banner .banner-menu li:nth-of-type(8) em {
+  width: 16px;
+  height: 16px;
+  background-position: 0 -118px;
+  left: 28px;
+  top: 18px;
+}
+.banner .banner-menu li:nth-of-type(9) em {
+  width: 12px;
+  height: 16px;
+  background-position: 0 -135px;
+  left: 31px;
+  top: 18px;
+}
+.banner .banner-menu a {
+  display: block;
+  width: 230px;
+  height: 47px;
+  line-height: 47px;
+  background: url(http://mobile.snail.com/static/common/images/arrow.png) 193px center no-repeat;
+}
+.banner .lunb {
+  width: 970px;
+  height: 430px;
+  float: left;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+.banner .lunb ul {
+  width: 4900px;
+  position: absolute;
+  left: 0;
+}
+.banner .lunb li {
+  float: left;
+}
+.banner .lunb .lunb-btn {
+  width: 46px;
+  height: 70px;
+  top: 50%;
+  margin-top: -35px;
+  position: absolute;
+  background: url(http://static.snail.com/images/prop/sprite.png);
+}
+.banner .lunb .lunb-left {
+  left: 0;
+  background-position: 0 -279px;
+}
+.banner .lunb .lunb-left:hover {
+  background-position: 0 -379px;
+}
+.banner .lunb .lunb-right {
+  right: 0;
+  background-position: 0 -479px;
+}
+.banner .lunb .lunb-right:hover {
+  background-position: 0 -579px;
+}
+.banner .lunb .lunb-bot {
+  height: 18px;
+  position: absolute;
+  top: 388px;
+  width: 100%;
+  text-align: center;
+}
+.banner .lunb .lunb-bot a {
+  display: inline-block;
+  margin: 0 8px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #fff;
+  cursor: pointer;
+}
+.banner .lunb .lunb-bot a.active {
+  background-color: orange;
+}
+
+.list-one {
+  background-color: #fff;
+  height: 254px;
+}
+.list-one .list-one-container {
+  margin: 0 auto;
+  width: 1200px;
+  position: relative;
+  padding-top: 20px;
+}
+.list-one .list-one-container img {
+  width: 164px;
+  height: 164px;
+}
+.list-one .list-one-container a {
+  display: block;
+  width: 260px;
+  float: left;
+  font-size: 16px;
+  text-align: center;
+  color: black;
+}
+.list-one .list-one-container a span {
+  color: orange;
+}
+.list-one .list-one-container a p {
+  line-height: 35px;
+}
+.list-one .list-one-container .list-one-tip {
+  width: 157px;
+  height: 254px;
+  position: absolute;
+  top: 0;
+  right: 7px;
+}
+.list-one .list-one-container .list-one-tip img {
+  height: 254px;
+}
+.list-one .list-one-container .list-one-tip span {
+  color: #fff;
+  font-size: 26px;
+  position: absolute;
+  line-height: 1.4;
+  left: 30px;
+  top: 20px;
+}
+.list-one .list-one-container:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.list-two {
+  background: #f7f7f7;
+  width: 1349px;
+}
+.list-two .list-two-top {
+  width: 1200px;
+  margin: 30px auto 0;
+}
+.list-two .list-two-top h1 {
+  padding-top: 30px;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.list-two .list-two-top .list-two-title {
+  border: 1px solid #e0e0e0;
+  height: 58px;
+  width: 1198px;
+  position: relative;
+}
+.list-two .list-two-top .list-two-title li {
+  float: left;
+  position: relative;
+}
+.list-two .list-two-top .list-two-title .two-line {
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+}
+.list-two .list-two-top .list-two-title .line1 {
+  background: #ff9501;
+}
+.list-two .list-two-top .list-two-title img {
+  margin-right: 15px;
+  display: inline;
+  vertical-align: middle;
+}
+.list-two .list-two-top .list-two-title a {
+  display: inline-block;
+  width: 208px;
+  height: 58px;
+  text-align: center;
+  vertical-align: middle;
+}
+.list-two .list-two-top .list-two-title span {
+  display: inline-block;
+  vertical-align: middle;
+  color: black;
+}
+.list-two .list-two-product {
+  margin-top: 16px;
+  position: relative;
+}
+.list-two .list-two-product:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+.list-two .list-two-product li {
+  width: 227px;
+  height: 360px;
+  float: left;
+  margin-right: 15px;
+  background-color: #fff;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.list-two .list-two-product li img {
+  width: 100%;
+}
+.list-two .list-two-product li p {
+  font-size: 16px;
+  color: #333;
+  text-align: left;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+  line-height: 1;
+}
+.list-two .list-two-product li span {
+  display: block;
+  font-size: 14px;
+  color: #f86a00;
+  text-align: left;
+  margin-left: 30px;
+  margin-bottom: 80px;
+  line-height: 1;
+}
+.list-two .list-two-product li .list-two-imgbox {
+  width: 190px;
+  margin: auto;
+}
+.list-two .list-two-product .list-two-lastproduct {
+  width: 225px;
+  height: 222px;
+  float: right;
+  margin-right: 16px;
+}
+.list-two .list-two-product .list-two-lastproduct span {
+  margin-bottom: 0;
+}
+.list-two .list-two-product .list-two-lastproduct .list-two-lastimgbox {
+  width: 145px;
+  margin: auto;
+}
+.list-two .list-two-product .list-two-search-product {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 226px;
+  height: 118px;
+  border: 1px solid #fff;
+  background: #fff;
+  margin-right: 16px;
+}
+.list-two .list-two-product .list-two-search-product .list-two-s-one {
+  color: #333;
+  font-size: 22px;
+  position: absolute;
+  top: 38px;
+  left: 10px;
+}
+.list-two .list-two-product .list-two-search-product .list-two-s-two {
+  color: #666;
+  font-size: 14px;
+  width: 108px;
+  text-align: center;
+  left: 0;
+  top: 70px;
+  position: absolute;
+}
+.list-two .list-two-product .list-two-search-product .list-two-logo {
+  background-image: url(http://static.snail.com/images/prop/sprite.png);
+  background-position: 0 -202px;
+  width: 47px;
+  height: 47px;
+  position: absolute;
+  right: 40px;
+  top: 37px;
+}
+
+.list-three {
+  margin-top: 40px;
+}
+.list-three .app {
+  width: 1200px;
+  margin: auto;
+}
+.list-three .app h1 {
+  font-size: 20px;
+  color: #303030;
+  margin-bottom: 20px;
+}
+.list-three .app span {
+  display: block;
+  font-size: 18px;
+  color: #303030;
+  color: #ff9500;
+  text-align: center;
+  margin-top: 20px;
+  font-family: 'microsoft yahei';
+  margin-bottom: 15px;
+}
+.list-three .app p {
+  width: 280px;
+  font-size: 22px;
+  font-family: 'microsoft yahei';
+  font-weight: normal;
+  text-align: center;
+}
+.list-three .app h4 {
+  font-weight: normal;
+  color: #999;
+  font-family: 'microsoft yahei';
+  font-size: 12px;
+  margin-bottom: 50px;
+}
+.list-three .app .appbox-one {
+  border-top: 1px solid #daae63;
+  width: 280px;
+  height: 420px;
+  float: left;
+  margin-right: 26px;
+  background: #fff;
+  text-align: center;
+  position: relative;
+}
+.list-three .app .appbox-one .appbox-one-lunb-btn {
+  background: #fff;
+  width: 9px;
+  height: 9px;
+  border: 2px solid #ff9500;
+  border-radius: 50%;
+  position: absolute;
+  left: 40%;
+}
+.list-three .app .appbox-one .appbox-two-lunb-btn {
+  cursor: pointer;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #eee;
+  margin-left: 40px;
+}
+.list-three .app .appbox-one .appbox-btn {
+  left: 50%;
+  margin-left: -5px;
+}
+.list-three .app .lastappbox {
+  margin-right: 0;
+}
+
+.footer-main {
+  background-color: #fff;
+  width: 1200px;
+  margin: auto;
+}
+.footer-main .footer-top {
+  display: flex;
+  padding: 0 15px;
+  border-bottom: 1px solid #dedede;
+}
+.footer-main .footer-top i {
+  position: absolute;
+  left: 0;
+  top: 30px;
+  width: 42px;
+  height: 42px;
+  background: url(http://mobile.snail.com/static/common/images/nav-icon.png) 0 0 no-repeat;
+}
+.footer-main .footer-top span {
+  position: absolute;
+  left: 52px;
+}
+.footer-main .footer-top .footer-top-one {
+  flex: 24%;
+  position: relative;
+  height: 102px;
+  line-height: 102px;
+}
+.footer-main .footer-top .footer-top-one .footer-top-logo1 {
+  background-position: 0 -360px;
+}
+.footer-main .footer-top .footer-top-one .footer-top-logo2 {
+  background-position: -43px -360px;
+}
+.footer-main .footer-top .footer-top-one .footer-top-logo3 {
+  background-position: -86px -360px;
+}
+.footer-main .footer-top .footer-top-one .footer-top-logo4 {
+  background-position: -129px -360px;
+}
+.footer-main .footer-middle {
+  padding: 30px 0;
+  border-bottom: 1px solid #dedede;
+}
+.footer-main .footer-middle:after {
+  content: '';
+  clear: both;
+  display: block;
+}
+.footer-main .footer-middle .footer-middle-one {
+  width: 200px;
+  float: left;
+}
+.footer-main .footer-middle .footer-middle-one h3 {
+  color: #333;
+  font-size: 16px;
+  line-height: 1;
+  margin-bottom: 14px;
+}
+.footer-main .footer-middle .footer-middle-one a {
+  color: #666;
+  font-size: 14px;
+}
+.footer-main .footer-middle .footer-middle-one li {
+  line-height: 20px;
+}
+.footer-main .footer-bot {
+  height: 203px;
+}
+.footer-main .footer-bot i {
+  width: 90px;
+  height: 90px;
+  display: block;
+  margin: 0 auto;
+  background: url(http://mobile.snail.com/static/common/images/nav-icon.png) 0 0 no-repeat;
+  margin-bottom: 20px;
+}
+.footer-main .footer-bot .footer-bot-box {
+  height: 158px;
+  margin-top: 30px;
+  text-align: center;
+  float: left;
+  margin-right: 30px;
+}
+.footer-main .footer-bot .footer-bot-box i {
+  background-position: 0 -178px;
+}
+.footer-main .footer-bot .footer-bot-box p,
+.footer-main .footer-bot .footer-bot-box span {
+  color: #999;
+  font-size: 14px;
+  line-height: 1;
+  margin-bottom: 10px;
+}
+
+.footer-minor {
+  background-color: #f7f7f7;
+  position: relative;
+}
+.footer-minor .minor-box {
+  width: 1200px;
+  margin: auto;
+  padding: 30px 0;
+}
+.footer-minor .minor-box h3 {
+  font-size: 18px;
+  color: #999;
+  line-height: 24px;
+  margin-bottom: 9px;
+}
+.footer-minor .minor-box p {
+  font-size: 12px;
+  color: #999;
+  line-height: 1;
+}
+.footer-minor .minor-box p a {
+  color: #999;
+}
+.footer-minor .minor-box .minor-box-right {
+  width: 108px;
+  height: 45px;
+  background: url(http://mobile.snail.com/static/common/images/nav-icon.png) -392px 0 no-repeat;
+  position: absolute;
+  right: 110px;
+  top: 30px;
+}
+
+.side {
+  width: 45px;
+  height: 100%;
+  background-color: #e0e0e0;
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+.side li {
+  display: block;
+  cursor: pointer;
+  height: 75px;
+  width: 45px;
+  bottom: 170px;
+  background: url(http://mobile.snail.com/static/common/images/sidebar.png) no-repeat;
+  position: absolute;
+}
+.side .side1 {
+  background-position: 0 -947px;
+  top: 50%;
+}
+.side .side2 {
+  background-position: -55px -456px;
+  top: 60%;
+}
+.side .side3 {
+  background-position: -55px -152px;
+  top: 70%;
+}
+.side .side4 {
+  background-position: -55px -608px;
+  top: 80%;
+}

@@ -1,0 +1,905 @@
+body {
+    font: 12px/1.5 "微软雅黑";
+    color: #333;
+    background: #f7f7f7;
+}
+
+body a {
+    text-decoration: none;
+    color: #333;
+}
+
+body a:hover {
+    color: #ff4400;
+    text-decoration: underline;
+}
+
+body .fl {
+    float: left;
+}
+
+body .fr {
+    float: right;
+}
+
+.cart {
+    width: 1200px;
+    margin: 0 auto 50px;
+    overflow: hidden;
+}
+
+.mt10 {
+    margin-top: 10px;
+}
+
+input {
+    margin: 0;
+    padding: 0;
+}
+
+.cart em {
+    font-style: normal;
+}
+
+.cart-top {
+    height: 100px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+    background-color: #ffffff;
+}
+
+.cart-top .top {
+    width: 1200px;
+    margin: 0 auto;
+    height: 100px;
+    line-height: 100px;
+    font-size: 24px;
+}
+
+.cart-top .top .logo {
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.cart .contitlebar {
+    width: 100%;
+    height: 50px;
+    color: #333;
+    font: 14px/50px "微软雅黑";
+    background-color: #ffffff;
+    padding: 10px 0;
+}
+
+.cart .contitlebar .col1 {
+    width: 140px;
+}
+
+.cart .contitlebar .col2 {
+    width: 480px;
+}
+
+.cart .contitlebar .col3 {
+    width: 100px;
+    text-align: center;
+}
+
+.cart .contitlebar .col6 {
+    width: 160px;
+    text-align: center;
+}
+
+.cart .contitlebar .col4 {
+    width: 190px;
+    text-align: center;
+}
+
+.cart .contitlebar .col5 {
+    width: 110px;
+    text-align: center;
+}
+
+.cart .contitlebar div {
+    float: left;
+}
+
+.cart .contitlebar .col1 {
+    width: 110px;
+}
+
+.cart .contitlebar label {
+    cursor: pointer;
+}
+
+.cart .contitlebar input {
+    vertical-align: -2px;
+}
+
+.cart .pbox {
+    background-color: #ffffff;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.cart .catebar {
+    padding-left: 10px;
+    font-size: 14px;
+    color: #333;
+    padding: 20px 50px;
+    border-bottom: 1px solid #dedede;
+}
+
+.cart .catebar td {
+    padding-left: 60px;
+}
+
+.pbox td {
+    padding: 20px 0;
+    vertical-align: middle;
+}
+
+.cart .full-input {
+    margin-right: 40px;
+}
+
+.cart .full-input.hide {
+    visibility: hidden;
+}
+
+.cart .icon {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    margin: 0 5px 0 0;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    color: #ffffff;
+    display: inline-block;
+}
+
+.cart .icon.entity {
+    background-color: #53acff;
+}
+
+.cart .icon.virtual {
+    background-color: #ff5e5e;
+}
+
+.cart .checkbox {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #ccc;
+    vertical-align: top;
+}
+
+.cart .checkbox:hover,
+.cart .checkbox.checked {
+    background: url(http://static.snail.com/images/cart/selected.png) no-repeat;
+}
+
+.cart .checkbox.disabled:hover {
+    background: none;
+}
+
+.cart .box {
+    /*border: 1px solid #ccc;*/
+    border-bottom: none;
+}
+
+.cart .box .list_ul {
+    padding: 20px 50px;
+    /*background: #fcfcfc;*/
+    border-bottom: 1px solid #ccc;
+    position: relative;
+}
+
+.cart .list_ul td {
+    border-bottom: 1px solid #dedede;
+}
+
+.cart .list_ul:hover,
+.cart .list_ul.cur {
+    background: #fff8e1;
+}
+
+.cart .list_ul .col1 {
+    padding-left: 60px;
+}
+
+
+/* .cart .list_ul .col2 {} */
+
+.cart .list_ul .col6 {
+    padding-right: 60px;
+    text-align: center;
+}
+
+.cart .list_ul .gift .col1 {
+    padding-left: 25px;
+    width: 430px;
+    color: #9c9c9c;
+    line-height: 30px;
+}
+
+.cart .list_ul .selsingle {
+    float: left;
+    margin-right: 30px;
+}
+
+.cart .list_ul .pic {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right: 10px;
+    position: relative;
+}
+
+.list_ul .imgcover {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 1px;
+    top: 1px;
+    background-color: #cbcbcb;
+    opacity: 0.8;
+    display: none;
+}
+
+.ul_disabled .imgcover {
+    display: block;
+}
+
+.cart .list_ul .pic img {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #ccc;
+}
+
+.cart .list_ul .info {
+    width: 285px;
+    margin-right: 10px;
+    float: left;
+}
+
+.cart .list_ul .tips {
+    color: #333;
+    float: left;
+    width: 325px;
+    overflow: hidden;
+    margin-top: 10px;
+    font: 12px/30px "microsoft yahei";
+}
+
+.cart .list_ul .tips select {
+    width: 108px;
+    height: 28px;
+    font: 12px/28px "microsoft yahei";
+    color: #666;
+    background: #fff;
+    color: #666;
+    position: absolute;
+    left: 1px;
+    top: 0;
+    z-index: 11;
+    background: transparent;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.cart .list_ul .tips .selectarea {
+    position: relative;
+    width: 110px;
+    height: 30px;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.cart .list_ul .tips .selcon {
+    position: absolute;
+    width: 88px;
+    height: 28px;
+    border: 1px solid #e7e7e7;
+    background: url(http://static.snail.com/images/cart/arrow.png) 90px center #fff no-repeat;
+    color: #666;
+    font: 12px/28px "microsoft yahei";
+    left: 0;
+    top: 0;
+    z-index: 1;
+    padding-left: 5px;
+    padding-right: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.cart .list_ul .col3 {
+    color: #333;
+    font-size: 14px;
+    text-align: center;
+}
+
+.cart .list_ul .col3 del {
+    color: #999999;
+}
+
+.cart .list_ul .col4 {
+    width: 190px;
+    text-align: center;
+}
+
+.cart .list_ul .changeBox {
+    border: 1px solid #dedede;
+    font-size: 0;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+}
+
+.cart .list_ul .add,
+.cart .list_ul .minus {
+    width: 34px;
+    height: 34px;
+    background: #f0f0f0;
+    text-align: center;
+    color: #333;
+    display: inline-block;
+    line-height: 34px;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.cart .list_ul .add.disabled,
+.cart .list_ul .minus.disabled {
+    color: #e5e5e5;
+}
+
+.cart .list_ul .enable:hover {
+    color: #ff7f00;
+}
+
+.cart .list_ul .upspan,
+.cart .list_ul .downspan,
+.cart .list_ul .num {
+    width: 70px;
+    height: 34px;
+    background: #fff;
+    text-align: center;
+    color: #333;
+    line-height: 34px;
+    border: none;
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.cart .list_ul .upspan {
+    position: absolute;
+    left: 34px;
+    top: 0;
+}
+
+.cart .list_ul .downspan {
+    position: absolute;
+    left: 34px;
+    top: 0;
+}
+
+.cart .list_ul .col5 {
+    color: #ff7f00;
+    font-size: 14px;
+    text-align: center;
+}
+
+.cart .list_ul .del {
+    color: #005ea7;
+    text-indent: -999em;
+    text-decoration: none;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url(http://static.snail.com/images/cart/del.png) no-repeat 0 -30px;
+}
+
+.cart .list_ul .del:hover {
+    color: #ff4400;
+    text-decoration: underline;
+    background-position: 0 0;
+}
+
+.cart .cacubar {
+    padding: 20px 60px;
+}
+
+.cart .cacubar .col1 {
+    padding-left: 60px;
+}
+
+.cart .cacubar .col3 {
+    padding-right: 60px;
+}
+
+.cart .cacubar .cacubtn {
+    width: 180px;
+    height: 50px;
+    text-align: center;
+    float: right;
+    background: #e5e5e5;
+    font: 16px/50px "微软雅黑";
+    color: #9c9c9c;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.cart .cacubar .cacubtn.enable {
+    background: #ff9500;
+    color: #fff;
+}
+
+.cart .cacubar .bulkdel {
+    font-size: 14px;
+    color: #666666;
+    line-height: 50px;
+}
+
+.cart .cacubar .total {
+    padding: 0 10px;
+    float: right;
+    line-height: 50px;
+}
+
+.cart .cacubar .price {
+    color: #ff9500;
+    font: bold 24px "Arial";
+    vertical-align: middle;
+}
+
+.cart .cacubar .numtips {
+    float: right;
+    padding: 0 20px;
+    line-height: 50px;
+}
+
+.cart .cacubar .totalnum {
+    font: normal 14px "Arial";
+    color: #ff7f00;
+    vertical-align: middle;
+    margin: 0 2px;
+}
+
+.cart .clr-style1 {
+    color: #ff4400;
+}
+
+.cart .empty {
+    background-color: #fff;
+    padding: 20px 0;
+}
+
+.cart .empty-cart {
+    margin: 50px auto;
+    width: 250px;
+    overflow: hidden;
+    background: url(http://static.snail.com/images/cart/empty.jpg) left center no-repeat;
+    padding-left: 160px;
+}
+
+.cart .empty .title {
+    color: #999;
+    font: 25px "微软雅黑";
+}
+
+.cart .empty .tips {
+    color: #666;
+    font: 18px/40px "微软雅黑";
+}
+
+.cart .empty .gobtn {
+    width: 178px;
+    height: 44px;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -o-border-radius: 2px;
+    background: #ff4400;
+    text-align: center;
+    font: 22px/44px "微软雅黑";
+    color: #fff;
+    margin-top: 30px;
+    display: block;
+    text-decoration: none;
+}
+
+.cart .salesarea {
+    width: 100%;
+    height: 37px;
+    border-bottom: 1px solid #e7e7e7;
+    background: #fff;
+    position: relative;
+}
+
+.cart .salestag {
+    position: absolute;
+    left: 50px;
+    bottom: -1px;
+    height: 25px;
+    border: 1px solid #e7e7e7;
+    background: #f4f4f4;
+    padding: 0 10px;
+    font: 12px/25px "瀹嬩綋";
+    color: #696969;
+}
+
+.cart .catone {
+    font-size: 14px;
+}
+
+.cart .catone .cateTit {
+    padding-left: 60px;
+}
+
+.cart .catone .type-input {
+    margin-right: 40px;
+}
+
+.table-wrapper {
+    border: 1px solid #dedede;
+}
+
+.cattab .cat-list {
+    padding: 0 60px;
+}
+
+.list_ul .pro-name {
+    font-size: 16px;
+}
+
+.list_ul .pro-name:hover {
+    text-decoration: none;
+}
+
+.list-table {
+    width: 100%;
+}
+
+.list-table .list_ul .col1 {
+    padding-left: 0;
+}
+
+.list-table .list_ul .col6 {
+    padding-right: 0;
+}
+
+.list-table .select-label {
+    float: left;
+    line-height: 28px;
+    font-size: 14px;
+    color: #666666;
+}
+
+.list-table .select {
+    float: left;
+    cursor: pointer;
+    position: relative;
+    width: 120px;
+    height: 28px;
+    line-height: 28px;
+    font-size: 14px;
+    border: 1px solid #dedede;
+    color: #666;
+    margin-right: 5px;
+    background-color: #ffffff;
+    text-indent: 2px;
+}
+
+.list-table .select span {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    width: 80px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.list-table .select .arrow {
+    background: url(http://static.snail.com/images/cart/arr.png) no-repeat center center;
+    display: block;
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.list-table .select:hover .arrow {
+    background-color: #f7f7f7;
+}
+
+.options-ul {
+    position: absolute;
+    width: 120px;
+    border: 1px solid #dedede;
+    left: -1px;
+    top: 28px;
+    background-color: #ffffff;
+    z-index: 9;
+    max-height: 120px;
+    overflow-y: auto;
+    display: none;
+}
+
+.list-table .list_ul .info {
+    width: 330px;
+    margin-top: 10px;
+}
+
+.list-table .list_ul td {
+    border-bottom: 1px dashed #dedede;
+}
+
+.list-table .list_ul .col-nb {
+    border-bottom: 0;
+}
+
+.list-table .list_ul:last-child td {
+    border-bottom: 0;
+}
+
+.options-ul a {
+    display: block;
+    font-size: 14px;
+    line-height: 30px;
+    height: 30px;
+    text-indent: 13px;
+    overflow: hidden;
+    text-align: left;
+    white-space: nowrap;
+    padding: 0 5px;
+    text-overflow: ellipsis;
+}
+
+.options-ul .selected,
+.options-ul a:hover {
+    text-decoration: none;
+    background-color: #f4f2ef;
+    color: #333;
+}
+
+
+/* .list-table .catbot td {} */
+
+.cart .gift_ul .col1 {
+    padding-left: 0;
+}
+
+.cart .gift_ul .gift_td {
+    padding: 0 60px;
+}
+
+.cart .gift_ul .gift_td td {
+    border-bottom: 1px dashed #dedede;
+    padding-right: 0;
+}
+
+.cart .gift_ul .add_td td {
+    border-bottom: none;
+    padding-right: 0;
+}
+
+.cart .gift_ul .gift_td .col4 {
+    border-bottom: none;
+}
+
+.cart .gift_ul .gift_td .gift td {
+    border-bottom: 0;
+}
+
+.cart .gift_ul .gift_td table {
+    width: 100%;
+}
+
+.cart .gift_ul .col-nb {
+    border-bottom: 0;
+}
+
+
+/***************************Perhaps,date:2015/07/22**********************************/
+
+.act-over {
+    display: inline-block;
+    padding: 0 8px;
+    line-height: 28px;
+    color: #fff;
+    font-size: 12px;
+    background-color: #808080;
+    z-index: 1000;
+    margin-top: 3px;
+}
+
+.ul_disabled a,
+.ul_disabled .select-label,
+.ul_disabled .select,
+.cart .ul_disabled .tips,
+.cart .ul_disabled .col3,
+.cart .ul_disabled .num,
+.cart .ul_disabled .gift .col1 {
+    color: #cecece;
+}
+
+.cart .ul_disabled .col5,
+.cart .ul_disabled .clr-style1 {
+    color: #ffa280;
+}
+
+
+/* .cart .list_ul .gift .col1 {} */
+
+
+/**********************combo*****************************/
+
+.combo {
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.list_ul .combo .col4 {
+    padding-left: 42px;
+    width: 98px;
+}
+
+
+/*******************************2015/11/05****************************/
+
+.limitedbuy {
+    width: 69px;
+    height: 28px;
+    line-height: 28px;
+    position: relative;
+    background-color: #ff9933;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    margin: 4px 0 0 15px;
+    display: inline-block;
+}
+
+.promo-title {
+    display: inline-block;
+    padding: 0 17px 0 3px;
+    position: relative;
+    height: 23px;
+    line-height: 23px;
+    border: 1px solid #ffe1d3;
+    text-align: center;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    border-radius: 2px;
+    color: #f40;
+    font-size: 12px;
+    font-weight: normal;
+    background-color: #fff0e7;
+}
+
+.promo-content {
+    display: inline-block;
+    position: relative;
+}
+
+.promo-title .arrow {
+    font-size: 0px;
+    height: 3px;
+    line-height: 0px;
+    position: absolute;
+    right: 7px;
+    text-align: center;
+    top: 10px;
+    width: 5px;
+    background: url(http://static.snail.com/images/cart/tips-arrow.png) 0 0 no-repeat;
+}
+
+.promo-hover .arrow {
+    background-position: 0 -10px;
+}
+
+.promo-popup {
+    position: absolute;
+    width: 120px;
+    padding: 4px;
+    font-size: 12px;
+    color: #9a9a9a;
+    border: 1px solid #cbcbcb;
+    background-color: #fff;
+    text-align: left;
+    left: 0;
+    top: 24px;
+    line-height: 20px;
+    font-weight: normal;
+    display: none;
+}
+
+
+/**********************************************pmask*************************************************************/
+
+.cartmask {
+    width: 100%;
+    background: #000;
+    opacity: .7;
+    filter: alpha(opacity=70);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 11;
+}
+
+.cartpop {
+    width: 580px;
+    background: #fff;
+    position: fixed;
+    left: 50%;
+    top: 30%;
+    margin-left: -290px;
+    _position: absolute;
+    padding: 100px 35px 50px;
+    z-index: 111;
+}
+
+.cartpop .close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 16px;
+    height: 16px;
+    background: url(http://static.snail.com/images/cart/close.png) no-repeat;
+}
+
+.cartpop .title {
+    color: #333333;
+    text-align: center;
+    font: bold 24px "微软雅黑";
+    margin-bottom: 10px;
+}
+
+.cartpop .msg {
+    font: 12px/20px "瀹嬩綋";
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.cartpop .do-btns {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.cartpop .btns {
+    display: inline-block;
+    text-align: center;
+    font: bold 12px/47px "微软雅黑";
+    text-decoration: none;
+    width: 180px;
+    height: 47px;
+    color: #fff;
+}
+
+.cartpop .btns-sure {
+    background: #ff9500;
+}
+
+.cartpop .btns-cancel {
+    background: #bfbfbf;
+    margin-right: 20px;
+}
+
+.disabled,
+.list-table .select.disabled {
+    cursor: not-allowed;
+}
